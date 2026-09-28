@@ -1,0 +1,37 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-size:20px;
+    color: black;
+   background:
+        radial-gradient(ellipse 80% 50% at 10% 0%,rgb(178, 138, 165) 0%, transparent),
+        radial-gradient(ellipse 60% 60% at 100% 40%,#d722d7 0% , transparent 50% ),
+    #e6ebe8;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+}
+a{
+    color: crimson;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: rgb(218, 209, 209);
+}
+/*header*/
+
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
